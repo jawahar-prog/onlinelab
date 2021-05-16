@@ -1,0 +1,85 @@
+@media screen and (max-width : 1220px) {
+.container { width: 95%; }
+.container {max-width:95%;}
+/*****togle-Nav******/
+}
+
+@media screen and (max-width : 767px) {
+.header-info{ text-align:center;}
+.header-social{text-align:center !important; margin-top: 5px; margin-bottom: 5px;}
+.header-top .header-social ul li+li {margin-left: 4px !important;}
+.navigation .navbar .navbar-brand img {width: 220px;}
+.navigation .navbar .navbar-brand {margin-top: -7px;}
+.navigation .navbar .navbar-nav .nav-item a{color: #000 !important;}
+.navigation .navbar .navbar-collapse{top: 128% !important;}
+.loginbtn{ width:100%;}
+.logcontent{margin-left: 0px !important; margin-top: 10px !important;}
+.department-tab .nav .nav-item {width: 25%;}
+.department-tab .nav .nav-item a {width: 130px; height: 110px;}
+[class^="flaticon-"]:before{font-size: 50px;}
+.department-tab .nav .nav-item a i{line-height: 43px;}
+.single-slider .slider-content{top:50%;}
+.single-slider .slider-image {height:440px;}
+
+.main-div{max-width: 100%;}
+.dropdown-content{min-width: 100%;}
+}
+@media screen and (max-width : 639px) {
+.footer-departments .footer-department-link ul {width: 30%;}
+.appointment-working .working-bg{height: 38%;}
+.appointment-working::before { width: 100%; height: 65%;}
+.appointment-form{ margin-top:10px;}
+
+}
+@media screen and (max-width : 580px) {
+.department-tab .nav .nav-item {width: 30%;}
+.department-tab .nav .nav-item a {width: 155px; height: 110px;}
+.department-tab .nav .nav-item a span {font-size: 14px; margin-top: 0px;}
+.department-tab .nav .nav-item a i {line-height: 52px;}
+.department-tab .nav .nav-item {margin-top: 12px;}
+}
+@media screen and (max-width : 530px) {
+.custab tr td{font-size: 11px; display: grid;padding: 8px 12px;}
+.hospitaldetails h5{ margin-top:10px;}
+}
+@media screen and (max-width : 479px) {
+.single-testimonial .text {font-size: 15px; line-height: 26px;}
+.single-work-time p{margin-top: 8px;}
+.single-slider .slider-content .slider-title{font-size:28px;}
+.single-slider .slider-content {top:50%;}
+.hospitaldetails {margin-top: 10px;}
+.panel h2{font-size: 28px;}
+.loginpt{width: 100%;}
+.main-div{padding: 30px 20px 50px 20px;}
+.working-area{margin-top: 10px; padding-top: 10px;}
+.appointment-working .working-bg {height: 43%;}
+.appointment-working { position: relative;  background-color: #111838;}
+.working-area .section-title{margin-top: 20px;}
+.Workingtimetable tr td{font-size: 10px;}
+.Workingtimetable tr th{font-size: 12px; padding: 8px;}
+.Patientdk tr th{ padding:8px; font-size:14px;}
+.Patientdk tr td{ padding:8px; font-size:12px;}
+	
+}
+@media screen and (max-width : 440px) {
+.department-tab .nav .nav-item {width:50%;}
+.department-tab .nav .nav-item a {width:170px; height: 110px;}
+.testimonial-area{ margin-right:0px;}
+.video-testimonial .title{font-size: 32px;}
+.copyright-content .text {font-size: 15px;}
+.main-btn {padding:0px 10px;}
+}
+@media screen and (max-width : 400px) {
+.department-area {padding-top: 50px;}
+.single-slider .slider-image {height: 340px;}
+.footer-departments .footer-department-link ul {width:100%;}
+.single-slider .slider-content .main-btn{margin-bottom:15px;}
+}
+@media screen and (max-width : 360px) {
+.department-tab .nav .nav-item {width:50%;}
+.department-tab .nav .nav-item a {width:138px; height: 110px;}
+}
+@media screen and (max-width : 320px) {
+.single-slider .slider-content .slider-title{font-size: 20px;}
+.single-slider .slider-content .slider-sub-title {font-size: 14px;}
+}

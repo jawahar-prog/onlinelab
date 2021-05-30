@@ -15,6 +15,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/diagnostic-center', function () {
+    return view('diagonosis-center');
+});
+
+Route::get('/book-appointment', function () {
+    return view('book-appointment');
+});
+
+Route::get('/contact', function () {
+    return view('contact-us');
+});
+
+Route::get('/term-and-condition', function () {
+    return view('term-condition');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class ,'index'])->name('home');

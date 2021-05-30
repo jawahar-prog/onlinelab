@@ -63,10 +63,10 @@
                     
                     @guest
                     <li class="nav-item "> <a class="active" href="{{ url('/') }}">Home</a> </li>
-                    <li class="nav-item"> <a href="aboutus.html">About us</a> </li>
-                    <li class="nav-item"> <a href="diagnostic-center.html">Diagnostic Center</a></li>
-                    <li class="nav-item"> <a href="book-appointment.html">Book Appointment</a></li>
-                    <li class="nav-item"> <a href="contact.html">Contact</a> </li>
+                    <li class="nav-item"> <a href="{{'about-us'}}">About us</a> </li>
+                    <li class="nav-item"> <a href="{{'diagnostic-center'}}">Diagnostic Center</a></li>
+                    <li class="nav-item"> <a href="{{'book-appointment'}}">Book Appointment</a></li>
+                    <li class="nav-item"> <a href="{{'contact'}}">Contact</a> </li>
                     <button class="signup dropbtn"><a href="{{ url('/register')}}"><i class="fa fa-user"></i> Pathology Register</a></button>
                     <div class="dropdown navbar-btn  d-sm-block logcontent">
                     
@@ -87,7 +87,7 @@
                     .like {
                     margin-right: 10px;
                         }
-      </style>
+                  </style>
                     <li class="nav-item "> <a class="active" href="{{ url('/home') }}">Home</a> </li>
                     <li class="nav-item"> <a href="book-appointment.html">Book Appointment</a></li>
                     <li class="nav-item"> <a href="contact.html">Contact</a> </li>
@@ -221,8 +221,11 @@
 <script src="{{ asset('patho/js/slick.min.js') }}"></script> 
 <script src="{{ asset('patho/js/jquery.magnific-popup.min.js') }}"></script> 
 <script src="{{ asset('patho/js/wow.min.js') }}"></script> 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <script src="{{ asset('patho/js/gijgo.min.js') }}"></script> 
 <script src="{{ asset('patho/js/jquery.nice-select.min.js') }}"></script> 
+
 <script src="{{ asset('patho/js/main.js') }}"></script>
 
 <script>
@@ -238,5 +241,6 @@
     
     
 </script>
+
 </body>
 </html>

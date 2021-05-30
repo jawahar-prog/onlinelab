@@ -1,4 +1,4 @@
-@extends('layouts.app')
+n@extends('layouts.app')
 
 @section('content')<section class="contact-page pt-30 pb-80 loginpage">
   <div class="container">

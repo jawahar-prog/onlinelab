@@ -96,7 +96,9 @@
 
     </div>
             <div class="g-recaptcha">
-            <img src="images/googlecaptcha.png" alt="">
+    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+      <br/><!-- 
+            <img src="images/googlecaptcha.png" alt=""> -->
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
